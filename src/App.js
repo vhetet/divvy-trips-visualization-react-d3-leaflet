@@ -23,6 +23,7 @@ function App() {
   return (
     <React.Fragment>
       <svg ref={svgRef}></svg>
+      <div id="container"></div>
       <button onClick={() => setData(data.map(value => value + 5))}>
         Update data
       </button>
